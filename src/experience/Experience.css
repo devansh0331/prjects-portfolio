@@ -1,0 +1,15 @@
+.exp{
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width : 600px){
+    .exp{
+        width: 100%;
+    }
+
+    /* .exp{
+        display: flex;
+        flex-direction: column ;       
+    } */
+}

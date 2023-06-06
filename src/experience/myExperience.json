@@ -1,0 +1,48 @@
+[
+    {
+    "title" : "TedX BITD",
+    "position" : "Technical Member",
+    "imgUrl" : 0,
+    "duration" : "Mar. 2023 - Present",
+    "url" : ""
+    
+    },
+    {
+    "title" : "Hult Prize BITD",
+    "position" : "Marketing Associate",
+    "imgUrl" : 0,
+    "duration" : "Mar. 2023 - Present",
+    "url" : ""
+    
+    },
+    {
+    "title" : "TechnoHub BITD",
+    "position" : "Member",
+    "imgUrl" : 0,
+    "duration" : "Sept. 2023 - Present",
+    "url" : ""
+    
+    },
+    {
+    "title" : "Public Speaking Club BITD",
+    "position2" : "Member",
+    "position" : "Social Media Member",
+    
+    "imgUrl" : 0,
+    "duration2" : "Oct. 2022 - Apr. 2023",
+    "duration" : "May. 2023 - Present",
+    "url" : ""
+    
+    },
+    {
+    "title" : "NSCC BITD",
+    "position2" : "Tech. Team Member",
+    "position" : "Web Development Lead",
+    
+    "imgUrl" : 0,
+    "duration" : "Jan. 2023 - Present",
+    "duration2" : "Nov. 2022 - Jan 2023",
+    "url" : ""
+    
+    }
+]

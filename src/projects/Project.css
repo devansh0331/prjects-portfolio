@@ -1,0 +1,29 @@
+.project{
+    width: 70%;
+    margin: 0 auto  ;
+}
+
+#section-title{
+    text-align: left;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
+    font-weight: bold;
+    color: #000083;
+    /* font-family: 'Pacifico', cursive; */
+
+    /* text-shadow: 10px 10px black; */
+}
+
+@media (max-width : 600px){
+    .project{
+        width: 120%;
+    }
+
+    project-container{
+        display: flex;
+        flex-direction: column ;       
+    }
+}

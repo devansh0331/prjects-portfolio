@@ -1,0 +1,101 @@
+.projectCard{
+    
+    height: inherit;
+    width: 18vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    margin: 1rem auto;
+    text-align: left;
+    padding: 1rem;
+    background: #ADD8E6;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    /* color: #000083; */
+}
+
+.projectCard:hover{
+    transform: scale(0.95);
+}
+
+.projectCard-content span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Exo 2', sans-serif;
+    text-decoration: underline;
+
+    
+
+}
+
+.projectCard-content p{
+    font-size: 0.8rem;
+    line-height: 1rem;
+    /* position: absolute; */
+}
+
+.projectCard-img img{
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+  
+    bottom: 0;
+    border: 2px solid black;
+}
+
+.projectCard-btns{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    /* height: inherit; */
+    /* align-items: end; */
+    
+}
+
+.projectCard-btns a{
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgb(30, 30, 30);
+    color: white !important;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    
+}
+
+.projectCard-btns a:hover{
+    background: black;
+}
+
+
+
+@media (max-width : 780px){
+
+}
+
+
+
+@media (max-width : 600px){
+    .projectCard{
+        width: 80%;
+        
+    }
+    .projectCard-img img{
+        height: 10rem;
+    }
+
+    .projectCard-btns{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .projectCard-btns a{
+        width: 80%;
+        text-align: center;
+    }
+}

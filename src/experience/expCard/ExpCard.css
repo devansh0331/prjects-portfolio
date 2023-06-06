@@ -1,0 +1,71 @@
+.expCard{
+    height: inherit;
+    width: 18vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    margin: 1rem auto;
+    text-align: left;
+    padding: 1rem;
+    background:#000083 ;
+    background: #c0efff;
+    background: #56d5ff;
+    color: black;
+    
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    position: relative;
+    text-align: center;
+    /* color: #000083; */
+}
+
+.expCard img{
+    border: 2px solid black;
+    height: 15rem;
+    width: 85%;
+    align-self: center;
+    margin-bottom: 1rem;
+    background: white;
+    border-radius: 20px;
+}
+
+#expTitle{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#expPost{
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    background: #000083;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#expDur{
+    font-size: 0.8rem;
+}
+
+@media (max-width : 600px){
+    .expCard{
+        width: 80%;
+        
+    }
+    .expCard img{
+        height: 15rem;
+        width: 80%;
+    }
+
+    .projectCard-btns{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .projectCard-btns a{
+        width: 80%;
+        text-align: center;
+    }
+}
